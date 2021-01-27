@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(39, 37, 37, 0.5), rgba(87, 85, 85, 0.5)), url(../Images/bg_1a.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    overflow: hidden;
+    font-family: tahoma;
+    color: #111;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+	font-family: 'Alegreya Sans' , sans-serif;
+}
+.nav{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	opacity: .9;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.7s;
+}
+.nav a{
+	display: block;
+	padding: 20px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: #ccc;
+}
+.nav a:hover {
+	color: #fff;
+	transition: 0.4s;
+}
+.nav .close {
+	position: absolute;
+	top: 0;
+	right: 22px;
+	margin-left: 50px;
+	font-size: 30px;
+	
+} 
+.slide a{
+	color: #000;
+	font-size: 36px;
+}
+#content{
+	padding: 20px;
+	transition: margin-left 0.7s;
+	overflow: hidden;
+	width: 100%;
+}
+    .Login_Btn{
+        border: 3px solid white;
+        float: left;
+        border-radius: 7px;
+        font-size: 30px;
+        font-weight: 700;
+        background-color: rgba(39, 37, 37, 0.5);
+        color: white;
+        padding: 10px;
+        position: absolute;
+        left: 90%;
+        top: 5%;
+    }
+    .Login_Btn:hover{
+        background-color: white;
+        color: black;
+    }
+    .container{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    /* display: inline; */
+    }
+    .cube_1{
+    /* margin: auto; */
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 2s ease;
+    left: 100px;
+    }
+    .cube_1:hover{
+        transform: rotateX(180deg) rotateY(720deg);
+        }
+
+    .cube_2{
+        /* margin: auto; */
+        position: relative;
+        width: 200px;
+        height: 200px;
+        transform-style: preserve-3d;
+        transition: transform 2s ease;
+        left: 325px;
+        /* margin-left: 250px; */
+        }
+        .cube_2:hover{
+            transform: rotateX(180deg) rotateY(720deg);
+            }
+
+        .cube_3{
+            /* margin: auto; */
+            position: relative;
+            width: 200px;
+            height: 200px;
+            transform-style: preserve-3d;
+            transition: transform 2s ease;
+            left: 550px;
+            /* margin-left: 500px; */
+            }
+            .cube_3:hover{
+                transform: rotateX(180deg) rotateY(720deg);
+                }
+
+            .cube_4{
+                /* margin: auto; */
+                position: relative;
+                width: 200px;
+                height: 200px;
+                transform-style: preserve-3d;
+                transition: transform 2s ease;
+                left: 775px;
+                /* margin-left: 750px; */
+                }
+                .cube_4:hover{
+                    transform: rotateX(180deg) rotateY(720deg);
+                    }
+    
+    .side{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    }
+    .side.back{
+    transform: translateZ(-100px) rotateX(180deg);
+    }
+    .side.left{
+    transform: translateX(-100px) rotateY(-90deg);
+    }
+    .side.right{
+    transform: translateX(100px) rotateY(90deg);
+    }
+    .side.front{
+    transform: translateZ(100px) ;
+    }
+    .side.top{
+    transform: translateY(-100px) rotateX(90deg);
+    }
+    .side.bottom{
+    transform: translateY(100px) rotateX(90deg);
+    }
+    .side .icon{
+    margin: 30% auto;
+    vertical-align: middle;
+    font-size: 84px;
+    }
+    .side.grey{
+    color: #777;
+    background-color: white;
+    }
+    .side.black{
+    color:white;
+    background-color: #1d1c1c;
+    }
+     a
+    {
+         color:white;
+         text-decoration:none;
+         cursor:pointer;  
+    }

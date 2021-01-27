@@ -1,0 +1,80 @@
+body{
+    background-image: url(../Images/bg_2d.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-inner{
+    margin-top: 20px;
+    text-align: center;
+    }
+.pro{
+    width: 80%;
+    height: 100%;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(73, 73, 73);
+    background-color: white;
+    opacity: 1;
+    margin-top: 15px;
+    margin-bottom: 10%;
+}
+.pro:hover{
+    transform: scale(1.1);
+    margin-bottom: 15px;
+}
+table{
+    width: 80%;
+}
+td{
+    border-radius: 5px;
+    border: 7px;
+    margin-top: 15px;
+}
+.discp{
+    padding-left: 50px;
+    padding-top: -50px;
+}
+button{
+	float: right;
+	margin-right: 35px;
+	margin-top: -60px; 
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid grey;
+    font-weight: 500;
+}
+button:hover{
+    background-color: lightgrey;
+    font-weight: bold;
+}
+.poster{
+    padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+    position: relative;
+}
+.poster img {
+  width: 100%;
+}
+.poster:hover .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: white;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 300px;
+  text-align: center;
+  font-size: 50px;
+  padding: -40px;
+  background: transparent;
+  border: 9px solid white;
+  opacity: 0.8;
+}
+abbr{
+    font-size: 40px;
+}

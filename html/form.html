@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+	.bg{
+		background: url('../Images/movie4.jpg') no-repeat; width: 100%; height: 100vh; background-size: cover;
+	}
+	.form-container{
+		 padding: 40px 50px; margin-top: 22vh;
+-webkit-box-shadow: 0px 0px 109px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 109px -7px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 109px -7px rgba(0,0,0,0.75);
+	}
+	
+	.h3{
+		padding: 50%;
+	}
+	</style>
+<body>
+	 
+<div class="container-fluid bg">
+	<div class="row">
+		<div class="col-md-2 col-sm-2 col-xs-12"></div>
+		<div class="col-md-1 col-sm-1 col-xs-12"></div>
+	
+	
+	<div class="box">
+	<form method="POST" action="form.php" class="form-container">
+		<h3 style="text-align: center;">SIGN UP</h3>
+		<br>
+	<div class="form-group">
+		<label for="uid">Username</label>
+		<input type="text" name="uid" placeholder="Enter your username" >
+	</div>
+		<div class="form-group">
+		<label for="email"> Email-ID  </label>
+		<input type="text" name="email" placeholder="Enter your email-id" >
+	</div>
+	<div class="form-group">
+	<label for="pwd"> Password</label>
+	<input type="password" name="pwd" placeholder="Enter a password" >
+	</div>
+	<div class="form-group">
+	<label for="pwd-repeat">Password</label>
+	<input type="password" name="pwd-repeat" placeholder="Confirm password"  >
+	</div>
+
+	<button class="btn btn-danger btn-block" type="submit" name="signup-submit">Sign up</button>
+
+<p>Already have an account? <a style="text-decoration: none;" href="http://localhost/formlogin.php">Click to log in</a> </p>
+<p class="errorfile"> </p>
+</form>
+
+
+<div class="col-md-4 col-sm-4 col-xs-12"></div>
+</div>
+</div>
+</body>
+</html>
