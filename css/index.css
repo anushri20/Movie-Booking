@@ -7,9 +7,9 @@ body{
     height: 100vh;
     background-image: linear-gradient(90deg, rgba(39, 37, 37, 0.5), rgba(87, 85, 85, 0.5)), url(../Images/bg_1a.jpg) ;
     background-size: cover;
-    background-repeat: no-repeat;
+   
     background-position: bottom;
-    overflow: hidden;
+    
     font-family: tahoma;
     color: #111;
     display: block;
@@ -71,7 +71,7 @@ body{
         color: white;
         padding: 10px;
         position: absolute;
-        left: 90%;
+        right: 10%;
         top: 5%;
     }
     .Login_Btn:hover{
@@ -182,4 +182,40 @@ body{
          color:white;
          text-decoration:none;
          cursor:pointer;  
+    }
+
+    @media (max-width: 700px){
+        .container{
+            display: block;
+        }
+    }
+
+    @media (min-width: 1100px){
+        .mobile{
+            display: none;
+        }
+        
+        
+    }
+
+    @media (max-width: 1100px){
+        .laptop{
+            display: none;
+        }
+    }
+
+    @media (max-width: 500px){
+        .cube_4{
+            left: 30%;
+        }
+    }
+    @media (min-width: 500px) and (max-width: 1100px){
+        .cube_4{
+        left: 40%;
+        }
+    }
+    @media (max-width: 330px){
+        .cube_4{
+            left: 20%;
+        }
     }
